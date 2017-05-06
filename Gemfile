@@ -14,6 +14,9 @@ gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 
 gem 'simple_form'
+
+gem 'devise'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

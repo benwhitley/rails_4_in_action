@@ -1,6 +1,6 @@
 class TicketsController < ApplicationController
   before_action :set_project
-  before action :set_ticket, only: [:show, :edit, :update, :destroy]
+  before_action :set_ticket, only: [:show, :edit, :update, :destroy]
 
   def new
     @ticket = @project.tickets.build
